@@ -1,7 +1,7 @@
 node_modules/
 
 # exclude everything
-tmp/session/*
+tmp/sessions/*
 tmp/uploads/*
 
 # exception to the rule
