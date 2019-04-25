@@ -1,0 +1,9 @@
+node_modules/
+
+# exclude everything
+tmp/session/*
+tmp/uploads/*
+
+# exception to the rule
+!tmp/session/.gitkeep
+!tmp/uploads/.gitkeep
