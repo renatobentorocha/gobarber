@@ -5,5 +5,5 @@ tmp/sessions/*
 tmp/uploads/*
 
 # exception to the rule
-!tmp/session/.gitkeep
+!tmp/sessions/.gitkeep
 !tmp/uploads/.gitkeep
