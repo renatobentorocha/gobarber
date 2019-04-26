@@ -1,0 +1,4 @@
+{% for schedule in schedules %}
+  <img src="/files/{{ schedule.avatar }}"/>
+  <p>{{ schedule.name }} às {{ schedule.date }} </p>
+{% endfor %}

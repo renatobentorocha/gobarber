@@ -3,6 +3,13 @@
 {% block body %}
   <div class="content">
     <strong>Olá, {{ user.name }}</strong>
+
+    {% if user.provider === true %}
+      <strong>
+        <a href="/app/schedule" class="schedule">Agenda</a>
+      </strong>
+    {% endif %}
+
     <p>Inicie um agendamento escolhendo um profissional abaixo:</p>
 
     <ul class="providers">
